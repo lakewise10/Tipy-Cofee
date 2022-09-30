@@ -1,0 +1,81 @@
+/* General Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    text-decoration: none;
+    user-zoom: none;
+    list-style: none;
+}
+/* Root Styling */
+:root{
+    --litcolor:#fff;
+    --bikcolor:#000;
+    --altcolor:#f57320;
+    --hdfront:'Abyssinica SIL', serif;
+    --titfont: 'Reem Kufi Ink', sans-serif;
+    --pfont:font-family: 'Source Sans Pro', sans-serif;
+}
+.hdings{
+    font-family: var(--hdfront);
+    font-size: 3.4em;
+    font-weight: bold;
+    letter-spacing: 3.4 px;
+}
+p{
+    font-family: var(--pfont);
+    text-align: justify;
+}
+.px{
+    padding:0 100px;}
+.df{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.btn1{
+    color: var(--litcolor);
+    background-color: var(--altcolor);
+    padding: 5px 10px;
+}
+.btn1:hover{
+    background: none;
+    color: var(--altcolor);
+    border: 1px solid var(--altcolor);
+    padding: 5px 10px;
+}/* Navbar styling */
+nav{
+    background-color: var(--litcolor);
+    width: auto;
+    height:10vh;
+    padding: 0 30px;
+    
+}
+#brand{
+    font-family: var(--hdfront);
+}
+nav li{
+    margin: 0 5px;
+}
+nav a{
+    margin: 0% 5px;
+}
+nav  a {
+    color: var(--bikcolor);
+    font-family: var(--hdfront);
+}
+/* Navbar styling ends */
+/* Main Styling */
+main{
+    width: auto;
+    height: 90vh;
+    background-color: var(--litcolor);
+}
+.mainbox{
+    width: 50%;
+    height: 60vh;
+}
+.mainbox img {
+    display: block;
+    margin: 0px auto;   
+}
